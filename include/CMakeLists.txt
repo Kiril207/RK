@@ -1,0 +1,2 @@
+add_library(builder_pattern INTERFACE)
+target_include_directories(builder_pattern INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
