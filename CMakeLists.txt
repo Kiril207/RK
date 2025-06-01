@@ -4,12 +4,11 @@ project(BuilderPatternDemo LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+enable_testing()         
 add_subdirectory(include)
 add_subdirectory(src)
 add_subdirectory(app)
 add_subdirectory(tests)
-
-enable_testing()
 
 set(CPACK_PACKAGE_CONTACT "kirill@example.com")
 set(CPACK_DEBIAN_PACKAGE_MAINTAINER "kirill <kirill@example.com>")
