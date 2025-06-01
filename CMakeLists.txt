@@ -11,7 +11,6 @@ add_subdirectory(tests)
 
 enable_testing()
 
-
 set(CPACK_PACKAGE_CONTACT "kirill@example.com")
 set(CPACK_DEBIAN_PACKAGE_MAINTAINER "kirill <kirill@example.com>")
 
